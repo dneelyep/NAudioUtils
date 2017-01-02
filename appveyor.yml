@@ -1,0 +1,18 @@
+#--------------------------#
+#    build configuration   #
+#--------------------------#
+before_build:
+  - nuget restore
+
+build:
+  publish_nuget: true
+  publish_nuget_symbols: true
+
+#-------------------------------#
+#    deployment configuration   #
+#-------------------------------#
+deploy:
+  provider: NuGet
+  api_key:
+    secure: rGnzrQ4lRcTN4BXSukxZBNlIi5UKi9d92cnQwRH29Re/xff8muk63Yb3f+DXSXAH
+  skip_symbols: false
