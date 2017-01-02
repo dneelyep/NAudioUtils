@@ -14,7 +14,7 @@ namespace NAudioUtils.Extensions
                 case 1:
                     return "Multiple tracks";
                 case 2:
-                    return "Multiplie songs";
+                    return "Multiple songs";
                 default:
                     throw new ArgumentOutOfRangeException($"Invalid MIDI file format provided: {file.FileFormat}");
             }
