@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Neel.NAudio.Utilities</id>
+    <title>NAudioUtils</title>
+    <version>$version$</version>
+    <authors>Daniel Neel</authors>
+    <owners>Daniel Neel</owners>
+    <licenseUrl>https://github.com/dneelyep/NAudioUtils/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dneelyep/NAudioUtils</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A collection of utility classes/functionality to make developing apps with NAudio easier.</description>
+    <releaseNotes>Add a human-readable description to MIDI File format values.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>NAudio Audio Utility</tags>
+    <dependencies>
+      <dependency id="NAudio" version="1.8.0" />
+    </dependencies>
+  </metadata>
+</package>
